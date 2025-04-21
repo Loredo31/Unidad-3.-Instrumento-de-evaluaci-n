@@ -1,4 +1,4 @@
-# Unidad3. Instrumento de evaluación
+# Unidad 3. Instrumento de evaluación
 
 # Alimentador automatico para mascotas
 
@@ -145,6 +145,9 @@ https://drive.google.com/drive/folders/1U_LmBsCWkuqQiAjv6f1X1uyLPOV748Rr?usp=sha
 Durante el trabajo en equipo sí hubo momentos en los que batallamos, sobre todo al principio. A veces sentía que no se tomaban en cuenta algunas de mis propuestas o que no me escuchaba del todo, y eso hizo que no avanzáramos tan rápido como queríamos. Pero con el tiempo fuimos mejorando la comunicación, y al final logramos coincidir en las ideas más importantes. Lo bueno es que los dos nos esforzamos por sacar bien el trabajo, y a pesar de las diferencias, supimos organizarnos y trabajar en conjunto. Al final estuvo bien y aprendimos bastante de la experiencia.
 
 ### Jose de Jesus Loredo Melendez
+Durante el desarrollo del comedero automático con IoT, uno de los principales retos fue la integración de los diferentes componentes electrónicos en un solo sistema funcional. Aunque el objetivo general se cumplió, noté que faltó una mejor planeación desde el inicio, especialmente en la distribución de tareas y la gestión del tiempo.
+
+Por ejemplo, la implementación del motor a pasos para servir alimentos se dejó para el final, lo que generó presión innecesaria y algunos errores en las conexiones. También hubo momentos en los que se priorizó avanzar rápido sin verificar a fondo el funcionamiento de cada parte, lo que nos llevó a tener que corregir fallos más adelante.
 
 ---
 
