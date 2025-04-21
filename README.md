@@ -99,7 +99,7 @@ El prototipo fue creada con materiales comunes como madera, papel cascaron, fras
 
 Link: https://app.cirkitdesigner.com/project/03323c64-a62a-40d1-a593-d0e92c2792ca
 
-<img src="https://github.com/user-attachments/assets/0051de63-2881-4f79-bf67-e2398111643c">
+<img src="https://github.com/user-attachments/assets/3102a75c-7534-4397-87e7-b1a8527171d2">
 <br> 
 **Placa 2 (Bomba de agua, Relevador, Sensor de agua)**
 <br>
