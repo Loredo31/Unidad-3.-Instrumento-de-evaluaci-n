@@ -141,7 +141,10 @@ https://drive.google.com/drive/folders/1U_LmBsCWkuqQiAjv6f1X1uyLPOV748Rr?usp=sha
 
 ## Coevaluación
 
-https://docs.google.com/document/d/1jDS9AxsSn1z5lsY4fK3YzhkUiO5Kk1glECyVzDjCRfc/edit?usp=sharing
+### Karen Anahi Padron Martinez
+Durante el trabajo en equipo sí hubo momentos en los que batallamos, sobre todo al principio. A veces sentía que no se tomaban en cuenta algunas de mis propuestas o que no me escuchaba del todo, y eso hizo que no avanzáramos tan rápido como queríamos. Pero con el tiempo fuimos mejorando la comunicación, y al final logramos coincidir en las ideas más importantes. Lo bueno es que los dos nos esforzamos por sacar bien el trabajo, y a pesar de las diferencias, supimos organizarnos y trabajar en conjunto. Al final estuvo bien y aprendimos bastante de la experiencia.
+
+### Jose de Jesus Loredo Melendez
 
 ---
 
