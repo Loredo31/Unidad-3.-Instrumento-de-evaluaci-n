@@ -1,0 +1,26 @@
+function doPost(e) {
+  const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+  const data = JSON.parse(e.postData.contents);
+  
+  const fecha = new Date();
+  const temperatura = data.temp;
+  const humedad = data.hum;
+  
+  sheet.appendRow([fecha, temperatura, humedad]);
+  if(temperatura>30){
+    enviarAlerta(temperatura,humedad);
+  }
+  
+  return ContentService.createTextOutput("Datos guardados");
+}
+
+
+function enviarAlerta(temp,hum){
+  const email= "karenpadron0608@gmail.com";
+  const asunto= "Alerta de Temperatura Alta";
+  const mensaje = "Se ha detectado una temperatura critica en el sensor\n"+
+  "Temperatura: "+temp+"°C\n"+
+  "Humedad: "+hum+"%\n"
+  "Fecha: "+new Date();
+  MailApp.sendEmail(email,asunto,mensaje);
+}
