@@ -137,7 +137,7 @@ https://drive.google.com/drive/folders/1FzxKbiOTlkNObt1a5S4nrsO6X3wCQRds?usp=sha
 
 Link a videos
 
-https://drive.google.com/drive/folders/1nj32m4lo2pFC3ACGYva-95rT2RvLLuux?usp=sharing
+https://drive.google.com/drive/folders/1U_LmBsCWkuqQiAjv6f1X1uyLPOV748Rr?usp=sharing
 
 ## Coevaluación
 
@@ -145,7 +145,7 @@ https://docs.google.com/document/d/1jDS9AxsSn1z5lsY4fK3YzhkUiO5Kk1glECyVzDjCRfc/
 
 ---
 
-## ✍️ Autores
+## Autores
 
 - **Nombre del equipo**: Alimentador automatico para mascotas GDS0651 y GDS0653
 - **Integrantes**:
