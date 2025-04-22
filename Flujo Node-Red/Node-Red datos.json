@@ -1,0 +1,196 @@
+[
+    {
+        "id": "c5c1336fd3b3df03",
+        "type": "tab",
+        "label": "Niveles Agua y Comida",
+        "disabled": true,
+        "info": ""
+    },
+    {
+        "id": "2ac4e82a0eb7ef36",
+        "type": "inject",
+        "z": "c5c1336fd3b3df03",
+        "name": "Simular niveles",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "91bd3afe551851fb"
+            ]
+        ]
+    },
+    {
+        "id": "91bd3afe551851fb",
+        "type": "function",
+        "z": "c5c1336fd3b3df03",
+        "name": "Generar niveles",
+        "func": "// Simula valores aleatorios\nconst nivelAgua = Math.floor(Math.random() * 101); // 0-100%\nconst nivelComida = Math.floor(Math.random() * 101); // 0-100%\n\n// Envía ambos por separado\nreturn [\n  { payload: nivelAgua },\n  { payload: nivelComida }\n];",
+        "outputs": 2,
+        "noerr": 0,
+        "x": 310,
+        "y": 100,
+        "wires": [
+            [
+                "19e8712a0cfae54e",
+                "c9b22dabab8d3c81"
+            ],
+            [
+                "135bdceadf0d9257",
+                "6c4d01ffcb5de3d0"
+            ]
+        ]
+    },
+    {
+        "id": "19e8712a0cfae54e",
+        "type": "ui_gauge",
+        "z": "c5c1336fd3b3df03",
+        "name": "Nivel de Agua",
+        "group": "30dc74048510af96",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Nivel de Agua (%)",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 100,
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": 50,
+        "seg2": 80,
+        "x": 550,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c9b22dabab8d3c81",
+        "type": "ui_chart",
+        "z": "c5c1336fd3b3df03",
+        "name": "Historial Agua",
+        "group": "30dc74048510af96",
+        "order": 2,
+        "width": 6,
+        "height": 4,
+        "label": "Histórico Nivel de Agua",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e"
+        ],
+        "outputs": 2,
+        "x": 550,
+        "y": 100,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "135bdceadf0d9257",
+        "type": "ui_gauge",
+        "z": "c5c1336fd3b3df03",
+        "name": "Nivel de Comida",
+        "group": "30dc74048510af96",
+        "order": 3,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Nivel de Comida (%)",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": 100,
+        "colors": [
+            "#ff8c00",
+            "#ffc107",
+            "#d32f2f"
+        ],
+        "seg1": 40,
+        "seg2": 70,
+        "x": 550,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "6c4d01ffcb5de3d0",
+        "type": "ui_chart",
+        "z": "c5c1336fd3b3df03",
+        "name": "Historial Comida",
+        "group": "30dc74048510af96",
+        "order": 4,
+        "width": 6,
+        "height": 4,
+        "label": "Histórico Nivel de Comida",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#ff5722",
+            "#ffc107",
+            "#d32f2f"
+        ],
+        "outputs": 2,
+        "x": 550,
+        "y": 220,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "30dc74048510af96",
+        "type": "ui_group",
+        "name": "Medición",
+        "tab": "052fe6d47662b307",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "052fe6d47662b307",
+        "type": "ui_tab",
+        "name": "Panel Agua/Comida",
+        "icon": "dashboard",
+        "order": 1
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "id": "62769bef8d448e41",
+        "type": "tab",
+        "label": "Flujo 8",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "botonCorreo",
+        "type": "ui_button",
+        "z": "62769bef8d448e41",
+        "name": "Botón correo",
+        "group": "f85bbcbd77560561",
+        "order": 5,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "📩 Rellenar comida",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "#4caf50",
+        "className": "",
+        "icon": "email",
+        "payload": "Comida y agua rellenada.",
+        "payloadType": "str",
+        "topic": "",
+        "topicType": "str",
+        "x": 290,
+        "y": 220,
+        "wires": [
+            [
+                "mensajeCorreo"
+            ]
+        ]
+    },
+    {
+        "id": "mensajeCorreo",
+        "type": "function",
+        "z": "62769bef8d448e41",
+        "name": "Formato del correo",
+        "func": "msg.topic = \"Rellenado completado\";\nmsg.payload = \"Comida y agua rellenada.\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 220,
+        "wires": [
+            [
+                "nodoCorreo"
+            ]
+        ]
+    },
+    {
+        "id": "nodoCorreo",
+        "type": "e-mail",
+        "z": "62769bef8d448e41",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": false,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": false,
+        "name": "karenpadron0608@gmail.com",
+        "dname": "Correo Rellenado",
+        "x": 760,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "f85bbcbd77560561",
+        "type": "ui_group",
+        "name": "Medición",
+        "tab": "72b2e6b6ae78b9ec",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "72b2e6b6ae78b9ec",
+        "type": "ui_tab",
+        "name": "Panel Agua/Comida",
+        "icon": "dashboard",
+        "order": 1
+    }
+]
