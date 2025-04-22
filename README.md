@@ -116,7 +116,7 @@ Link: https://app.cirkitdesigner.com/project/03323c64-a62a-40d1-a593-d0e92c2792c
 ## Base de Datos y Almacenamiento
 
 El sistema guarda todos los datos generados por los sensores en una base de datos **SQLite** permitindo un control eficiente ademas de poder consultar los datos ya registradoe.
-
+<img src="https://github.com/user-attachments/assets/8c0c3368-20ac-4d7b-9017-c301b257308c">
 <img src="https://github.com/user-attachments/assets/d0cd7f99-5050-43dc-bf88-2a5003a70c41">
 
 ---
