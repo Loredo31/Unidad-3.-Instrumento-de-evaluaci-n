@@ -103,6 +103,7 @@ Link: https://app.cirkitdesigner.com/project/03323c64-a62a-40d1-a593-d0e92c2792c
 
 <img src="https://github.com/user-attachments/assets/3102a75c-7534-4397-87e7-b1a8527171d2">
 <br> 
+
 **Placa 2 (Bomba de agua, Relevador, Sensor de agua)**
 <br>
 
