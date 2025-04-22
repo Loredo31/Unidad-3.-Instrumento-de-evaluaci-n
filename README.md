@@ -86,6 +86,22 @@ El **sensor ultrasonico** medira la distancia entre este mismo y la comida o agu
 
 ---
 
+## Interfaz Gráfica
+
+La interfaz fue desarrollada en **Node-RED** y permite:
+- Monitorear el nivel de agua y comida dentro de los recipientes.
+- Controla el suministro de alimento.
+- Envia correo se requiere o se a rellenado los contenedores.
+
+**Ejemplo de interfaz:**
+<img src="https://github.com/user-attachments/assets/48a06514-3fe2-433a-9287-c1c3456a5ae6">
+<img src="https://github.com/user-attachments/assets/b3058fa0-293e-450d-a458-335db4846eae">
+<img src="https://github.com/user-attachments/assets/fca23647-e359-47ee-bd16-edcd58f87bb7">
+<img src="https://github.com/user-attachments/assets/ecefa524-85a1-4a1b-8d84-0daf98c0d46e">
+<img src="https://github.com/user-attachments/assets/6c84ac62-ba69-4dbd-babb-86a1895069b7">
+
+---
+
 ## Prototipo
 
 El prototipo fue creada con materiales comunes como madera, papel cascaron, frascos y un dispensador impreso en 3D (sirve la comida).
