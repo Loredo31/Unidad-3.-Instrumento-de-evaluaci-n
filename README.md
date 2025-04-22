@@ -28,8 +28,7 @@ El sistema combina sensores de ambiente con controladores mecánicos para realiz
 |------------------|--------------------------------------------------|
 | ESP32            | Microcontroladores para manejar sensores/actuadores |
 | Node-RED         | Plataforma de control |
-| Raspberry Pi     | Máquina virtual que aloja Node-RED y SQLite  |
-| PostgreSQL       | Base de datos relacional para almacenamiento de datos |
+| Sqlite           | Base de datos relacional para almacenamiento de datos |
 | MQTT             | Protocolo de mensajería entre nodos ESP32 y Node-RED |
 | Impresión 3D     | Estructuras físicas y mecanismos personalizados   |
 
