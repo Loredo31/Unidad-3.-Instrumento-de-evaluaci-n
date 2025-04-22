@@ -133,6 +133,14 @@ https://drive.google.com/drive/folders/1FzxKbiOTlkNObt1a5S4nrsO6X3wCQRds?usp=sha
 
 ---
 
+## Evidencia de los clientes que aprueban el proyecto
+
+Link a videos
+
+https://drive.google.com/drive/folders/1gi3i-p71Pb89mhRoJHZ34viZovG2uSSh?usp=sharing
+
+---
+
 ## Ejecicios de Clase
 
 Link a videos
