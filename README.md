@@ -73,7 +73,7 @@ El sistema está distribuido en **2 placas ESP32**, cada una encargada de distin
 
 ---
 
-## 🛠 Funcionalidad del Sistema
+## Funcionalidad del Sistema
 
 ### Servidor de agua
 Cuando el **sensor de agua** detecta que el agua en el plato es baja, enciende la **bomba de agua**, lanzara el agua al recipiente hasta que el nivel de agua sea adecuado.
@@ -94,6 +94,7 @@ El prototipo fue creada con materiales comunes como madera, papel cascaron, fras
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-top: 20px;"> <img src="https://github.com/user-attachments/assets/de32992b-8a7d-4899-8230-848be7ca8ab6" alt="Imagen 1" style="width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"> <img src="https://github.com/user-attachments/assets/b4b91a90-7ace-4e10-aaad-5c82f6dfd937" alt="Imagen 2" style="width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"> <img src="https://github.com/user-attachments/assets/60b443d1-6dc9-4596-83cf-43bcc734d5c9" alt="Imagen 3" style="width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"> <img src="https://github.com/user-attachments/assets/aa25aa33-ce80-45d5-9357-a65053784ac4" alt="Imagen 4" style="width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"> <img src="https://github.com/user-attachments/assets/787a2090-2863-40fb-82d7-a46705006e7d" alt="Imagen 4" style="width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"> <img src="https://github.com/user-attachments/assets/1d419685-e435-44d6-a40f-6aefd6ca231a" alt="Imagen 4" style="width: 300px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);"> </div>
 
 ---
+
 ## Diagramas de las placas
 
 **Placa 1 (Motor Paso, Sensores ultrasonicos, Sensor de fotoresistencia, LEDs, Pantalla LCD, Boton)**
@@ -111,6 +112,7 @@ Link: https://app.cirkitdesigner.com/project/03323c64-a62a-40d1-a593-d0e92c2792c
 
 <img src="https://github.com/user-attachments/assets/9dfb0382-4bc0-4bb8-bb5a-41dc03d36fcc">
 <br>
+
 ---
 
 ## Base de Datos y Almacenamiento
