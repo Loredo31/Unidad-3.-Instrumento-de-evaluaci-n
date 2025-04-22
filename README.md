@@ -19,6 +19,9 @@ El sistema combina sensores de ambiente con controladores mecánicos para realiz
 - Diseñar una solución IoT descentralizada basada en múltiples ESP32.
 - Visualizar datos en tiempo real y guardar el histórico en una base de datos SQLite.
 - Proporcionar control manual del aparato.
+- Monitorea los niveles de Agua y Comida
+- Controla el suministro de alimento
+- Envia alertas por Correo Electronico
 
 ---
 
@@ -77,9 +80,9 @@ Cuando el **sensor de agua** detecta que el agua en el plato es baja, enciende l
 
 ### Servidor de comida
 El **boton** enciende un **LED** el cual omitira luz para que lo detecte el **sensor LDR**. Si el sensor detecta la luz el **motor a pasos** comenzara a girar sacando comida, cuando se deje de oprimir el **boton** el **LED** se apagara y dejara de mandar comida.
-
+Ademas mediante el dashboard se puede dispensar la comida presionando un boton y igual manera manda un correo de comida rellenada.
 ### Alerta de comida y/o agua
-El **sensor ultrasonico** medira la distancia entre este mismo y la comida o agua en los recimientes, si estos tinen una distancia superior a 10 cm, se encenderan dos **LEDs** rojos y la **pantalla LCD** enviara un mensaje de comida o agua insuficientes segun sea el caso.
+El **sensor ultrasonico** medira la distancia entre este mismo y la comida o agua en los recimientes, si estos tinen una distancia superior a 10 cm, se encenderan dos **LEDs** rojos y la **pantalla LCD** enviara un mensaje de comida o agua insuficientes segun sea el caso y enviara una alerta via correo indicando que falta comida y/o agua.
 
 ---
 
